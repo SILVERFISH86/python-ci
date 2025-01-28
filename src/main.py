@@ -1,5 +1,5 @@
-def add(a, b):
-    return a+b
+def main():
+    print("Hello from my Python app!")
 
-def subtract(a, b):
-    return a-b
+if __name__ == "__main__":
+    main()
