@@ -5,15 +5,7 @@ categories:
     labels: ['feature']
   - title: '🐛 Bug Fixes'
     labels: ['bug']
-  - title: '🛠 Maintenance'
-    labels: ['chore']
 change-template: '- ${{ change.title }} (#${{ change.number }}) by @${{ change.author }}'
 template: |
-  ## 🚀 Features
-  ${{ changes.features }}
-
-  ## 🐛 Bug Fixes
-  ${{ changes.bug }}
-
-  ## 🛠 Maintenance
-  ${{ changes.maintenance }}
+  ## Changes
+  ${{ changes }}
